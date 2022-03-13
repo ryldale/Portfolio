@@ -1,0 +1,286 @@
+
+*{
+    outline: none !important;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: relative;
+    z-index: 1000000;
+}
+p{
+    font-size: 1.15rem;
+}
+/* Navbar */
+.navbar{
+    background: transparent !important;
+    transition: 0.5s;
+}
+.navbar.scrolled{
+    background: #A1DBF1 !important;
+    transition: 0.5s;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #00B6BC;
+    background: #E4F4F3;
+    border-radius: 10%;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus
+{
+    color: #03a8f48e;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:visited
+{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+}
+/* Home Page */
+.ryle
+{
+    width: 40%;
+    padding-right: 10%;
+}
+.banner{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 0;
+    background: #71D5E4;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+
+}
+.height100p{
+    height: 100vh;
+}
+.h100{
+    height: 100%;
+}
+.contentBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify; 
+    z-index: 10;
+}
+.contentBox h1{
+    font-weight: 800;
+    color: #E4F4F3;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+}
+.contentBox p{
+    color: #E4F4F3;
+    font-size:1.3rem;
+}
+/* Profile Page */
+.profile{
+    padding: 100px 0;
+    background: #A1DBF1;
+}
+.headerText{
+    color: #00B6BC;
+}
+.headerText h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.schoolBox .imgBx{
+    
+    width: 100%;
+    height: 100%;
+}
+.schoolBox .imgBx img{
+    width: 100%;
+    height: 100%;
+}
+.fritzie{
+    padding-top: 1rem;
+    width: 60%;
+    height: 60%;
+}
+.row{
+    text-align: center;
+}
+
+/* Skill Page */
+.skill
+{
+    padding: 100px 0;
+    background: #A1DBF1;
+}
+.skill h1
+{
+    color: #00B6BC;
+}
+.skill p
+{
+    color: #00B6BC;
+}
+.boxSkill
+{
+    background: #E4F4F3;
+    border-radius: 5%;
+    padding: 1rem;
+}
+/* Project Page */
+.project{
+    padding: 100px 0;
+    background: #A1DBF1;
+}
+.Certificates{
+    text-align: center;
+    padding-top: 1rem;
+}
+.cert{
+    height: 60%;
+    width: 60%;
+    border: 1px solid rgb(94, 94, 94);
+}
+
+
+/* Contact Page */
+.contact{
+    padding: 100px 0;
+    background: #A1DBF1;
+}
+
+/* Footer */
+footer
+{
+    padding: 60px 0 0;
+    background: #A1DBF1;
+}
+label
+{
+    color: #00B6BC;
+}
+button
+{
+    color: #00B6BC;
+}
+.list
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list li
+{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.list li a
+{
+    color: #00B6BC;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.list li a:hover
+{
+    color: pink;
+}
+
+.copyright
+{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        color: #00B6BC;
+}
+
+@media (min-width: 992px)
+{
+.navbar-expand-lg .navbar-nav .nav-link{
+   padding-right: 1rem;
+   padding-left: 1rem;
+    }
+
+}
+@media (max-width: 992px)
+{
+.nav-light .navbar-toggler
+{
+   background: #fff;
+   border-radius: 0;
+} 
+.banner
+{
+    min-height: 100vh;
+    padding: 100px 0;
+}
+.contentBox p{
+    font-size: .8rem;
+}
+.contentBox h1{
+    font-size: 2rem;
+}
+.ryle {
+    width: 60%;
+    padding-right: 10%;
+}
+.cert {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(94, 94, 94);
+}
+.copyright {
+    font-size: .8rem;
+}
+.list li a {
+    color: #00B6BC;
+    font-size: 1.4em;
+    transition: 0.5s;
+}
+.headerText h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+.skill h1 {
+    font-size: 1.5rem;
+}
+.fritzie {
+    padding-top: 1rem;
+    width: 70%;
+    height: 70%;
+}
+.fritzie:hover {
+    padding-top: 1rem;
+    width: 90%;
+    height: 90%;
+    transition: width 2s;
+}
+}
